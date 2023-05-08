@@ -1,7 +1,11 @@
 ---
-layout: lesson
-root: .
+site: sandpaper::sandpaper_site
 ---
+
+> **ATTENTION** This is an experimental test of [The Carpentries Workbench](https://carpentries.github.io/workbench) lesson infrastructure.
+> It was automatically converted from the source lesson via [the lesson transition script](https://github.com/carpentries/lesson-transition/).
+> 
+> If anything seems off, please contact Zhian Kamvar [zkamvar@carpentries.org](mailto:zkamvar@carpentries.org)
 
 In the late 1920s and early 1930s,
 William Dyer,
@@ -29,8 +33,14 @@ Databases, however, include powerful tools for search and analysis,
 and can handle large, complex data sets.
 These lessons will show how to use a database to explore the expeditions' data.
 
-> ## Prerequisites
->
-> * This lesson requires the Unix shell, plus [SQLite3](http://www.sqlite.org/) or [DB Browser for SQLite](http://sqlitebrowser.org/).
-> * Please download the database we will use: [survey.db]({{ page.root }}/files/survey.db)
-{: .prereq}
+::::::::::::::::::::::::::::::::::::::::::  prereq
+
+## Prerequisites
+
+- This lesson requires the Unix shell, plus [SQLite3](https://www.sqlite.org/) or [DB Browser for SQLite](https://sqlitebrowser.org/).
+- Please download the database we will use: [survey.db](files/survey.db)
+  
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
